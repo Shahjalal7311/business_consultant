@@ -1347,22 +1347,6 @@ select:focus {
     z-index: 1;
 }
 
-.about-big-text {
-    position: absolute;
-    top: 240px;
-    left: -265px;
-    font-size: 80px;
-    color: rgba(48, 55, 61, 0.05);
-    font-weight: 700;
-    font-family: 'Playfair Display', serif;
-    text-transform: uppercase;
-    transform: rotate(-90deg);
-    cursor: vertical-text;
-    line-height: 70px;
-}
-
-
-
 .about-one-content .pattern {
     position: absolute;
     top: -100px;
@@ -1445,19 +1429,6 @@ select:focus {
     background-image: url(../images/choose/patter-bglo-bg.png);
     padding-top: 160px;
     padding-bottom: 220px;
-}
-
-.choose-one-big-text {
-    font-size: 90px;
-    color: #2e343a;
-    font-weight: 700;
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-    opacity: .1;
-    text-transform: uppercase;
-    font-family: 'Playfair Display', serif;
-    line-height: 90px;
 }
 
 .choose-one-content {
@@ -2230,44 +2201,44 @@ select:focus {
 
 
 /*******************************************
-  Case One Section Style 
+  investment One Section Style 
 *******************************************/
-.case-one-sec {
+.investment-one-sec {
     background: #2e343a;
     padding: 90px 0 100px;
 }
 
-.case-one-sec .section-title .case-white h4 {
+.investment-one-sec .section-title .investment-white h4 {
     color: #ffffff;
 }
 
-.case-one-sec .section-title .text-color p {
+.investment-one-sec .section-title .text-color p {
     color: #c1b79a;
 }
 
-.case-one-sec .container-fluid1 {
+.investment-one-sec .container-fluid1 {
     position: relative;
     display: block;
     padding: 0 30px;
 }
 
-.single-case-one {
+.single-investment-one {
     position: relative;
     display: block;
     margin-bottom: 30px;
 }
 
-.single-case-one .img-box {
+.single-investment-one .img-box {
     position: relative;
     display: block;
     overflow: hidden;
 }
 
-.single-case-one .img-box img {
+.single-investment-one .img-box img {
     width: 100%;
 }
 
-.single-case-one .case-hover-box {
+.single-investment-one .investment-hover-box {
     position: absolute;
     top: 0;
     left: 0;
@@ -2286,7 +2257,7 @@ select:focus {
     background-color: rgba(39, 43, 48, 0.9);
 }
 
-.single-case-one .img-box:hover .case-hover-box {
+.single-investment-one .img-box:hover .investment-hover-box {
     opacity: 1;
     -webkit-transform: translateY(0%);
     -ms-transform: translateY(0%);
@@ -2295,13 +2266,13 @@ select:focus {
     transform: translateY(0%);
 }
 
-.single-case-one .case-hover-box .box {
+.single-investment-one .investment-hover-box .box {
     display: table;
     height: 100%;
     width: 100%;
 }
 
-.single-case-one .case-hover-box .contant {
+.single-investment-one .investment-hover-box .contant {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -2311,7 +2282,7 @@ select:focus {
     transform: translateY(50px);
 }
 
-.single-case-one .img-box:hover .case-hover-box .contant {
+.single-investment-one .img-box:hover .investment-hover-box .contant {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
@@ -2322,7 +2293,7 @@ select:focus {
     -o-transition: all 500ms ease 500ms;
 }
 
-.single-case-one .case-hover-box .contant h4 {
+.single-investment-one .investment-hover-box .contant h4 {
     color: #ffffff;
     font-size: 24px;
     line-height: 34px;
@@ -2330,15 +2301,15 @@ select:focus {
     margin-bottom: 10px;
 }
 
-.single-case-one .case-hover-box .contant h4 a {
+.single-investment-one .investment-hover-box .contant h4 a {
     color: #ffffff;
 }
 
-.single-case-one .case-hover-box .contant h4 a:hover {
+.single-investment-one .investment-hover-box .contant h4 a:hover {
     color: #c1b79a;
 }
 
-.single-case-one .case-hover-box .contant h5 {
+.single-investment-one .investment-hover-box .contant h5 {
     color: #c1b79a;
     font-size: 15px;
     font-weight: 500;
@@ -2346,7 +2317,7 @@ select:focus {
     text-align: center;
 }
 
-.case-one-sec .view-cases {
+.investment-one-sec .view-investments {
     position: relative;
     display: block;
     padding-top: 20px;
@@ -2928,7 +2899,7 @@ select:focus {
 }
 
 .footer-bottom-part {
-    background: #353e47;
+    background: #767779;
     padding-top: 19px;
     padding-bottom: 20px;
     display: block;
@@ -2936,13 +2907,13 @@ select:focus {
 
 .footer-bottom-part .copyright-text p {
     font-size: 16px;
-    color: #c1b79a;
+    color: #fff;
     margin: 0;
 }
 
 .footer-bottom-part .copyright-text a {
     font-size: 16px;
-    color: #c1b79a;
+    color: #fff;
 }
 
 /*******************************************
