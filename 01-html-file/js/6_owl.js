@@ -1886,7 +1886,7 @@
 	};
 
 	/**
-	 * Loads all resources of an item at the specified position.
+	 * Loads all logo of an item at the specified position.
 	 * @param {Number} position - The absolute position of the item.
 	 * @protected
 	 */
