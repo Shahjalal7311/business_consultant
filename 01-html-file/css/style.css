@@ -4170,21 +4170,11 @@ select:focus {
 /*******************************************
   Page Title Section Style 
 *******************************************/
-.page-title-sec {
+.page-breadcome-sec {
+	background: #d8d8d8;
     position: relative;
     display: block;
-    padding: 125px 0 138px;
-}
-
-.page-title-sec-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    padding: 30px 0 35px;
 }
 
 .page-title-contant {
@@ -4201,7 +4191,7 @@ select:focus {
 
 .page-title-contant .title h2 {
     font-size: 24px;
-    color: #ffffff;
+    color: #222222;
     line-height: 34px;
 }
 
@@ -4218,7 +4208,7 @@ select:focus {
 .page-title-contant .page-title-menu ul li {
     position: relative;
     display: inline-block;
-    color: #ffffff;
+    color: #222222;
     margin-right: 7px;
 }
 
@@ -4228,7 +4218,7 @@ select:focus {
 
 .page-title-contant .page-title-menu ul li a {
     font-size: 16px;
-    color: #ffffff;
+    color: #222222;
 }
 
 .page-title-contant .page-title-menu ul li a:hover {
