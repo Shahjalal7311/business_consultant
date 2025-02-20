@@ -272,10 +272,10 @@ $(".brand-carousel").owlCarousel({
 
 
 /*-------------------------------------
-Case Type2 Carousel
+investment Type2 Carousel
 -------------------------------------*/
-if ($('.case-type-2-carousel').length) {
-    $('.case-type-2-carousel').owlCarousel({
+if ($('.investment-type-2-carousel').length) {
+    $('.investment-type-2-carousel').owlCarousel({
         dots: false,
         loop: true,
         margin: 30,
