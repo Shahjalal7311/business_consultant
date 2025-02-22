@@ -1,9 +1,7 @@
 /* Medium screen  */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
-    /*
-=== About One Sec ===
-*/
+  /*=== About One Sec ===*/
     .about-one-img .about-one-background {
         top: -100px;
         bottom: 0;
@@ -47,30 +45,22 @@
         left: -175px;
     }
 
-    /*
-=== About Two Sec ===
-*/
+    /*=== About Two Sec ===*/
     .about-two-left .top-title h2 {
         font-size: 24px;
     }
 
-    /*
-=== Counter Section ===
-*/
+    /*=== Counter Section ===*/
     .single-counter-part h3.title {
         font-size: 22px;
     }
 
-    /*
-=== Team Details Section ===
-*/
+    /*=== Team Details Section ===*/
     .team-details-contant-block {
         padding-right: 0;
     }
 
-    /*
-=== Why Choose One Section ===
-*/
+    /*=== Why Choose One Section ===*/
     .why-choose-one-sec {
         padding-top: 91px;
         padding-bottom: 304px;
@@ -91,9 +81,7 @@
         margin-left: 60px;
     }
 
-    /*
-=== Featured One Section ===
-*/
+    /*=== Featured One Section ===*/
     .featured-one-sec {
         padding-top: 100px;
     }
@@ -124,15 +112,7 @@
         float: none;
     }
 
-    .case-evulation {
-        padding: 0;
-        padding-top: 52px;
-        padding-bottom: 100px;
-    }
-
-    /*
-=== Case One Section ===
-*/
+    /*=== Case One Section ===*/
     .case-one-box .btn-block .prev-btn {
         display: none;
     }
@@ -141,9 +121,7 @@
         display: none;
     }
 
-    /*
-===  Brand Type1 Section ===
-*/
+    /*===  Brand Type1 Section ===*/
     .brand-type1-bg {
         z-index: 1;
     }
@@ -175,9 +153,7 @@
         margin-right: 0;
     }
 
-    /*
-===  Why Choose Two Section ===
-*/
+    /*===  Why Choose Two Section ===*/
     .single-img-box {
         margin-bottom: 50px;
     }
@@ -185,17 +161,6 @@
     .good-at {
         margin-bottom: 36px;
     }
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -301,9 +266,7 @@
         margin-bottom: 32px;
     }
 
-    /*
-=== Counter Section ===
-*/
+    /*=== Counter Section ===*/
     .counter-sec {
         padding-bottom: 60px;
     }
@@ -341,9 +304,7 @@
         text-align: center;
     }
 
-    /*
-=== Blog Single Section ===
-*/
+    /*=== Blog Single Section ===*/
     .blog-single-sec {
         padding-bottom: 40px;
     }
@@ -352,9 +313,7 @@
         margin-bottom: 30px;
     }
 
-    /*
-=== Recent Cases Section ===
-*/
+    /*=== Recent Cases Section ===*/
     .recent-cases-sec {
         padding: 90px 0 70px;
     }
@@ -367,9 +326,7 @@
         margin-top: 80px;
     }
 
-    /*
-=== Team Details Section ===
-*/
+    /*=== Team Details Section ===*/
     .team-details-wedget {
         margin-bottom: 50px;
     }
@@ -379,9 +336,7 @@
     }
 
 
-    /*
-=== Why Choose One Section ===
-*/
+    /*=== Why Choose One Section ===*/
     .why-choose-one-sec {
         padding-top: 91px;
         padding-bottom: 304px;
@@ -407,9 +362,7 @@
         margin-left: 60px;
     }
 
-    /*
-=== Featured One Section ===
-*/
+    /*=== Featured One Section ===*/
     .featured-one-sec {
         padding-top: 100px;
     }
@@ -440,15 +393,7 @@
         float: none;
     }
 
-    .case-evulation {
-        padding: 0;
-        padding-top: 52px;
-        padding-bottom: 100px;
-    }
-
-    /*
-=== Case One Section ===
-*/
+    /*=== Case One Section ===*/
     .case-one-box .btn-block .prev-btn {
         display: none;
     }
@@ -457,9 +402,7 @@
         display: none;
     }
 
-    /*
-===  Brand Type1 Section ===
-*/
+    /*==  Brand Type1 Section ===*/
     .brand-type1-bg {
         z-index: 1;
     }
@@ -502,60 +445,16 @@
         text-align: center;
     }
 
-    /*
-===  Why Choose Two Section ===
-*/
+    /*===  Why Choose Two Section ===*/
     .good-at {
         margin-bottom: 36px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
 
-    /*
-=== header style  ===
-*/
+    /*=== header style  ===*/
     .top-sec .email-info {
         padding: 26px 0px 10px;
         text-align: center;
@@ -577,9 +476,7 @@
     }
 
 
-    /*
-=== About One Sec ===
-*/
+    /*=== About One Sec ===*/
     .about-one-img .about-one-background {
         top: -100px;
         bottom: 0;
@@ -628,9 +525,7 @@
         left: -175px;
     }
 
-    /*
-=== Blog One Section Style ===
-*/
+    /*=== Blog One Section Style ===*/
     .blog-one-sec {
         padding: 90px 0 50px;
     }
@@ -641,9 +536,7 @@
         margin: 0px auto 44px;
     }
 
-    /*
-===  Footer One Section Style  ===
-*/
+    /*===  Footer One Section Style  ===*/
     .single-footer-widget.widget1 {
         margin-bottom: 48px;
     }
@@ -656,9 +549,7 @@
         margin-bottom: 13px;
     }
 
-    /*
-=== About Two Sec ===
-*/
+    /*=== About Two Sec ===*/
     .about-two-sec {
         padding: 100px 0 100px;
     }
@@ -675,9 +566,7 @@
         line-height: 0;
     }
 
-    /*
-=== Team Two Section ===
-*/
+    /*=== Team Two Section ===*/
     .team-two-sec {
         padding-bottom: 60px;
     }
@@ -686,9 +575,7 @@
         margin-bottom: 32px;
     }
 
-    /*
-=== Counter Section ===
-*/
+    /*=== Counter Section ===*/
     .counter-sec {
         padding-bottom: 60px;
     }
@@ -697,9 +584,7 @@
         margin-bottom: 33px;
     }
 
-    /*
-=== Testimonial Two Section ===
-*/
+    /*=== Testimonial Two Section ===*/
     .testimonial-two-sec {
         padding-bottom: 77px;
     }
@@ -709,23 +594,17 @@
         margin-top: 50px;
     }
 
-    /*
-=== Blog Two Section ===
-*/
+    /*=== Blog Two Section ===*/
     .blog-two-img {
         margin-bottom: 30px;
     }
 
-    /*
-=== Blog Page Type1 Section ===
-*/
+    /*=== Blog Page Type1 Section ===*/
     .blog-page-type1 {
         padding-bottom: 100px;
     }
 
-    /*
-=== Blog Page Type2 Section ===
-*/
+    /*=== Blog Page Type2 Section ===*/
     .main-sibebar {
         margin-bottom: 50px;
     }
@@ -742,9 +621,7 @@
         margin-left: 29px;
     }
 
-    /*
-=== Blog Single Section ===
-*/
+    /*=== Blog Single Section ===*/
     .blog-single-sec {
         padding-bottom: 40px;
     }
@@ -753,9 +630,7 @@
         margin-bottom: 30px;
     }
 
-    /*
-=== Recent Cases Section ===
-*/
+    /*=== Recent Cases Section ===*/
     .recent-cases-sec {
         padding: 90px 0 70px;
     }
@@ -764,16 +639,12 @@
         margin-bottom: 30px;
     }
 
-    /*
-=== Single Service Section ===
-*/
+    /*=== Single Service Section ===*/
     .service-details-desc {
         margin-top: 80px;
     }
 
-    /*
-=== Team Details Section ===
-*/
+    /*=== Team Details Section ===*/
     .team-details-wedget {
         margin-bottom: 50px;
     }
@@ -786,9 +657,7 @@
         margin-bottom: 20px;
     }
 
-    /*
-=== Why Choose One Section ===
-*/
+    /*=== Why Choose One Section ===*/
     .why-choose-one-sec {
         padding-top: 91px;
         padding-bottom: 240px;
@@ -817,9 +686,7 @@
         display: none;
     }
 
-    /*
-=== Featured One Section ===
-*/
+    /*=== Featured One Section ===*/
     .featured-one-sec {
         padding-top: 100px;
     }
@@ -850,30 +717,7 @@
         float: none;
     }
 
-    .case-evulation {
-        padding: 0;
-        padding-top: 52px;
-        padding-bottom: 100px;
-    }
-
-    /*
-=== Case One Section ===
-*/
-    .case-one-item .image-box .case-overly {
-        max-width: 265px;
-    }
-
-    .case-one-box .btn-block .prev-btn {
-        display: none;
-    }
-
-    .case-one-box .btn-block .next-btn {
-        display: none;
-    }
-
-    /*
-===  Brand Type1 Section ===
-*/
+/* ===  Brand Type1 Section ===*/
     .brand-type1-bg {
         z-index: 1;
     }
@@ -914,9 +758,7 @@
         text-align: center;
     }
 
-    /*
-=== Page Title Section ===
-*/
+    /*=== Page Title Section ===*/
     .page-title-sec {
         padding: 125px 0 126px;
     }
@@ -929,14 +771,8 @@
         margin-bottom: 15px;
     }
 
-    /*
-===  Why Choose Two Section ===
-*/
+    /*===  Why Choose Two Section ===*/
     .good-at {
         margin-bottom: 36px;
     }
-
-
-
-
 }

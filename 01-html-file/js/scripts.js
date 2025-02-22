@@ -1,21 +1,16 @@
-
+/*
+* custome js
+*/
 
 (function($) {
-	
+  
 "use strict";
-    
-    
-    
-
-
 /*-------------------------------------
 Submenu Dropdown Toggle
 -------------------------------------*/
 if ($('.main-nav li.dropdown ul').length) {
     $('.main-nav li.dropdown').append('<button class="dropdown-btn"><i class="fa fa-angle-right"></i></button>');
 }
-
-
 
 /*-------------------------------------
 Dynamic Current Menu Selector
@@ -81,16 +76,14 @@ if ($('[data-toggle="tooltip"]').length) {
         $('.stricky').addClass('real').clone(true).insertAfter('.stricky').addClass('stricked-menu').removeClass('real');
     }
     if ($('.scroll-to-target').length) {
-        $(".scroll-to-target").on('click', function () {
-            var target = $(this).attr('data-target');
-            // animate
-            $('html, body').animate({
-                scrollTop: $(target).offset().top
-            }, 1000);
-
-            return false;
-
-        });
+      $(".scroll-to-target").on('click', function () {
+        var target = $(this).attr('data-target');
+        // animate
+        $('html, body').animate({
+            scrollTop: $(target).offset().top
+        }, 1000);
+        return false;
+      });
 }
 
 
@@ -207,7 +200,7 @@ if($('.count-box').length){
 }
 
 
-	
+  
 /*-------------------------------------
 Featured One Carousel
 -------------------------------------*/
@@ -268,50 +261,6 @@ $(".brand-carousel").owlCarousel({
     }
 }
 )
-    
-
-
-/*-------------------------------------
-investment Type2 Carousel
--------------------------------------*/
-if ($('.investment-type-2-carousel').length) {
-    $('.investment-type-2-carousel').owlCarousel({
-        dots: false,
-        loop: true,
-        margin: 30,
-        nav: true,
-        navText: [
-            '<i class="fa fa-angle-left"></i>',
-            '<i class="fa fa-angle-right"></i>'
-        ],
-        autoplayHoverPause: false,
-        autoplay: 6000,
-        smartSpeed: 1000,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:1
-            },
-            800:{
-                items:1
-            },
-            1024:{
-                items:3
-            },
-            1100:{
-                items:3
-            },
-            1200:{
-                items:3
-            }
-        }
-    });    		
-}
-    
-
-
 
 /*-------------------------------------
 Client Carousel
@@ -412,9 +361,6 @@ if($('.wow').length){
     );
     wow.init();
 }
-
-  
-
 
 /*-------------------------------------
 Contact Form Validation
@@ -615,9 +561,6 @@ if ($('.testimonial-type1-carousel').length && $('.client-type1-thumbs-carousel'
 Select Dropdown Script
 -------------------------------------*/
 $("#contact-type1").selectmenu();
-
-
-
     
 /*-------------------------------------
 Sortable Masonary with Filters
@@ -685,125 +628,101 @@ function sortableMasonry() {
         });
     }
 }
-	
-	
-	 
-
+  
 $(window).on('load', function () {
-    
     sortableMasonry();    
-
     //OWl Carousel Activator
     if ($('.theme-banner-carousel').length) {
-        $('.theme-banner-carousel').each(function () {
+      $('.theme-banner-carousel').each(function () {
 
-            var Self = $(this);
-            var carouselOptions = Self.data('options');
-            var carouselPrevSelector = Self.data('carousel-prev-btn');
-            var carouselNextSelector = Self.data('carousel-next-btn');
-            var thmCarousel = Self.owlCarousel(carouselOptions);
-            if (carouselPrevSelector !== undefined) {
-                $(carouselPrevSelector).on('click', function () {
-                    thmCarousel.trigger('prev.owl.carousel', [1000]);
-                    return false;
-                });
-            }
-            if (carouselNextSelector !== undefined) {
-                $(carouselNextSelector).on('click', function () {
-                    thmCarousel.trigger('next.owl.carousel', [1000]);
-                    return false;
-                });
-            }
-        });
+        var Self = $(this);
+        var carouselOptions = Self.data('options');
+        var carouselPrevSelector = Self.data('carousel-prev-btn');
+        var carouselNextSelector = Self.data('carousel-next-btn');
+        var thmCarousel = Self.owlCarousel(carouselOptions);
+        if (carouselPrevSelector !== undefined) {
+          $(carouselPrevSelector).on('click', function () {
+            thmCarousel.trigger('prev.owl.carousel', [1000]);
+            return false;
+          });
+        }
+        if (carouselNextSelector !== undefined) {
+          $(carouselNextSelector).on('click', function () {
+            thmCarousel.trigger('next.owl.carousel', [1000]);
+            return false;
+          });
+        }
+      });
     }
-    
     
     // Side Munu Block Inner
     if ($('.side-menu__block-inner').length) {
-        $('.side-menu__block-inner').mCustomScrollbar({
-            axis: 'y',
-            theme: 'dark'
-        });
+      $('.side-menu__block-inner').mCustomScrollbar({
+        axis: 'y',
+        theme: 'dark'
+      });
     }  
-  
 
-    
     /*-------------------------------------
     Custom Cursor Overlay
     -------------------------------------*/  
     if ($('.custom-cursor__overlay').length) {
-
         // / cursor /
-        var cursor = $(".custom-cursor__overlay .cursor"),
-            follower = $(".custom-cursor__overlay .cursor-follower");
+      var cursor = $(".custom-cursor__overlay .cursor"),
+          follower = $(".custom-cursor__overlay .cursor-follower");
 
-        var posX = 0,
-            posY = 0;
+      var posX = 0,
+          posY = 0;
 
-        var mouseX = 0,
-            mouseY = 0;
+      var mouseX = 0,
+          mouseY = 0;
 
-        TweenMax.to({}, 0.016, {
-            repeat: -1,
-            onRepeat: function () {
-                posX += (mouseX - posX) / 9;
-                posY += (mouseY - posY) / 9;
+      TweenMax.to({}, 0.016, {
+        repeat: -1,
+        onRepeat: function () {
+          posX += (mouseX - posX) / 9;
+          posY += (mouseY - posY) / 9;
 
-                TweenMax.set(follower, {
-                    css: {
-                        left: posX - 22,
-                        top: posY - 22
-                    }
-                });
+          TweenMax.set(follower, {
+              css: {
+                  left: posX - 22,
+                  top: posY - 22
+              }
+          });
 
-                TweenMax.set(cursor, {
-                    css: {
-                        left: mouseX,
-                        top: mouseY
-                    }
-                });
+          TweenMax.set(cursor, {
+              css: {
+                  left: mouseX,
+                  top: mouseY
+              }
+          });
+        }
+      });
 
-            }
-        });
-
-        $(document).on("mousemove", function (e) {
-            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            mouseX = e.pageX;
-            mouseY = e.pageY - scrollTop;
-        });
-        $("button, a").on("mouseenter", function () {
-            cursor.addClass("active");
-            follower.addClass("active");
-        });
-        $("button, a").on("mouseleave", function () {
-            cursor.removeClass("active");
-            follower.removeClass("active");
-        });
-        $(".custom-cursor__overlay").on("mouseenter", function () {
-            cursor.addClass("close-cursor");
-            follower.addClass("close-cursor");
-        });
-        $(".custom-cursor__overlay").on("mouseleave", function () {
-            cursor.removeClass("close-cursor");
-            follower.removeClass("close-cursor");
-        });
+      $(document).on("mousemove", function (e) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+          mouseX = e.pageX;
+          mouseY = e.pageY - scrollTop;
+      });
+      $("button, a").on("mouseenter", function () {
+          cursor.addClass("active");
+          follower.addClass("active");
+      });
+      $("button, a").on("mouseleave", function () {
+          cursor.removeClass("active");
+          follower.removeClass("active");
+      });
+      $(".custom-cursor__overlay").on("mouseenter", function () {
+          cursor.addClass("close-cursor");
+          follower.addClass("close-cursor");
+      });
+      $(".custom-cursor__overlay").on("mouseleave", function () {
+          cursor.removeClass("close-cursor");
+          follower.removeClass("close-cursor");
+      });
     }
-
-
-
-
 });
-    
-
-
-
-
-
-
-
-    
-    
-    
+     
 })(window.jQuery);
 
 

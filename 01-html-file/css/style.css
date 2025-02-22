@@ -8,34 +8,34 @@ URL:            https://themeforest.net/user/websquard
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-#01  Theme Reset Style
-#02  Global Elements
-#03  Header Sec Style
-#04  Owl Carousel Slider
-#05  Footer Style
-#06  About One Section
-#07  Why Choose One Section
-#08  Practice One Section
-#09  Team One Section
-#10  Featured One Section
-#11  Testimonial One Section
-#12  Case One Section
-#13  Blog One Section
-#14  Brand Type1 Section
+#  Theme Reset Style
+#  Global Elements
+#  Header Style
+#  Carousel Slider
+#  Footer Style
+#  About Section
+#  Why Choose Section
+#  Practice Section
+#  Team Section
+#  Featured Section
+#  Testimonial Section
+#  Investments Section
+#  Blog Section
+#  Brand Section
 
 
 
 
 
 /*******************************************
-    Fonts 
+   Fonts 
 *******************************************/
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 
 
 /*******************************************
-    Basic Css 
+  reset Css 
 *******************************************/
 html,
 body {
@@ -126,7 +126,7 @@ a:hover {
 
 
 /*******************************************
-    Boxed Wrapper Css 
+    body Wrapper Css 
 *******************************************/
 .body_wrapper {
     position: relative;
@@ -141,7 +141,7 @@ a:hover {
 
 
 /*******************************************
-    Preloader Css 
+    loader Css 
 *******************************************/
 .preloader {
     position: fixed;
@@ -359,7 +359,7 @@ select:focus {
 
 
 /*******************************************
-    Main Nav style 
+  Nav style 
 *******************************************/
 .theme-main-nav {
     position: relative;
@@ -535,7 +535,7 @@ select:focus {
 
 
 /*******************************************
-    SideMenu Style 
+  SideMenu Style 
 *******************************************/
 .side-menu__block {
     position: fixed;
@@ -868,15 +868,6 @@ select:focus {
     opacity: 1;
     visibility: visible;
 }
-
-
-
-
-
-
-
-
-
 @media(max-width: 1199px) {
     .theme-main-nav {
         float: right;
@@ -915,18 +906,10 @@ select:focus {
         padding: 30px 0;
         margin-left: 0;
     }
-
-
-
-
 }
 
-
-
-
-
 /*******************************************
-    Banner Section Style 
+    Banner Style 
 *******************************************/
 
 .banner-sec {
@@ -1193,7 +1176,7 @@ select:focus {
 
 
 /*******************************************
-    Banner Type2 Section Style 
+    Banner Style 
 *******************************************/
 .banner-sec.type2 .main-banner-carousel .slide-item {
     padding: 344px 0 243px;
@@ -1235,10 +1218,6 @@ select:focus {
     .banner-sec.type2 .main-banner-carousel .slide-item {
         padding: 223px 54px 223px;
     }
-
-
-
-
 }
 
 @media only screen and (max-width: 991px) {
@@ -1255,13 +1234,10 @@ select:focus {
     .banner-sec.type2 .main-banner-carousel .slide-item {
         padding: 244px 0 143px;
     }
-
-
 }
 
 
 @media only screen and (max-width: 767px) {
-
     .main-banner-carousel .slide-item {
         padding: 173px 0px 173px;
     }
@@ -1270,8 +1246,6 @@ select:focus {
         font-size: 40px;
         line-height: 56px;
     }
-
-
 }
 
 @media only screen and (max-width: 500px) {
@@ -1283,8 +1257,6 @@ select:focus {
     .main-banner-carousel .content-box .title h2 br {
         display: none;
     }
-
-
 }
 
 
@@ -1295,7 +1267,7 @@ select:focus {
 
 
 /*******************************************
-  About One Section Style 
+  About  Style 
 *******************************************/
 .about-one-sec {
     position: relative;
@@ -1418,10 +1390,8 @@ select:focus {
     border-color: #c1b79a;
 }
 
-
-
 /*******************************************
-  Why Choose One Section Style 
+  Why Choose Style 
 *******************************************/
 .why-choose-one-sec {
     position: relative;
@@ -1580,7 +1550,7 @@ select:focus {
 }
 
 /*******************************************
-  Practice One Section Style 
+  Practice Style 
 *******************************************/
 .practice-one-sec {
     position: relative;
@@ -1684,7 +1654,7 @@ select:focus {
 }
 
 /*******************************************
-  Team One Section Style 
+  Team Style 
 *******************************************/
 .team-one-sec {
     position: relative;
@@ -1803,7 +1773,7 @@ select:focus {
 }
 
 /*******************************************
-  Featured One Section Style 
+  Featured Style 
 *******************************************/
 .featured-one-sec {
     position: relative;
@@ -1853,9 +1823,6 @@ select:focus {
     background-color: rgba(48, 55, 61, 0.98);
     z-index: -1;
 }
-
-
-
 
 .featured-one-left-box {
     position: relative;
@@ -1915,140 +1882,8 @@ select:focus {
 }
 
 
-
-
-
-.case-evulation {
-    position: relative;
-    display: block;
-    padding: 0 100px;
-    z-index: 1;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.case-evulation .title {
-    padding-bottom: 5px;
-}
-
-.case-evulation .title h4 {
-    font-size: 24px;
-    color: #c1b79a;
-    font-weight: 700;
-    line-height: 34px;
-}
-
-.case-evulation .text {
-    position: relative;
-    display: block;
-}
-
-.case-evulation .text p {
-    font-size: 16px;
-    color: #ffffff;
-    line-height: 26px;
-}
-
-.case-evulation form {
-    position: relative;
-    display: block;
-}
-
-.case-evulation form .input {
-    position: relative;
-    display: block;
-    padding-bottom: 17px;
-}
-
-.case-evulation form .input input[type="text"],
-.case-evulation form .input input[type="text"],
-.case-evulation form .input input[type="email"] {
-    position: relative;
-    display: block;
-    border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, .30);
-    height: 36px;
-    width: 100%;
-    font-size: 14px;
-    font-style: italic;
-    background: none;
-    color: #ffffff;
-}
-
-.case-evulation form .input input[type="text"]:focus {
-    color: #ffffff;
-    border-bottom: 1px solid rgba(255, 255, 255, .50);
-}
-
-.case-evulation form .input input[type="email"]:focus {
-    color: #ffffff;
-    border-bottom: 1px solid rgba(255, 255, 255, .50);
-}
-
-.case-evulation form .input input[type="text"]::-webkit-input-placeholder {
-    color: #cbcbcb;
-}
-
-.case-evulation form .input input[type="text"]:-moz-placeholder {
-    color: #cbcbcb;
-}
-
-.case-evulation form .input input[type="text"]::-moz-placeholder {
-    color: #cbcbcb;
-}
-
-.case-evulation form .input input[type="text"]:-ms-input-placeholder {
-    color: #cbcbcb;
-}
-
-.case-evulation form .input input[type="email"]::-webkit-input-placeholder {
-    color: #cbcbcb;
-}
-
-.case-evulation form .input input[type="email"]:-moz-placeholder {
-    color: #cbcbcb;
-}
-
-.case-evulation form .input input[type="email"]::-moz-placeholder {
-    color: #cbcbcb;
-}
-
-.case-evulation form .input input[type="email"]:-ms-input-placeholder {
-    color: #cbcbcb;
-}
-
-.case-evulation form .input p {
-    font-size: 14px;
-    color: #cbcbcb;
-    font-style: italic;
-    margin: 0;
-    padding-bottom: 2px;
-    padding-top: 5px;
-}
-
-.case-evulation form .input textarea {
-    height: 125px;
-    width: 100%;
-    font-size: 14px;
-    color: #ffffff;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    background: #383a3c;
-    border: 1px solid rgba(255, 255, 255, .30);
-    opacity: .6;
-}
-
-.case-evulation form .input textarea:focus {
-    color: #ffffff;
-    border: 1px solid rgba(255, 255, 255, .50);
-}
-
-
-
 /*******************************************
-  Testimonial One Section Style 
+  Testimonial Style 
 *******************************************/
 .testimonial-one-sec {
     position: relative;
@@ -2201,7 +2036,7 @@ select:focus {
 
 
 /*******************************************
-  investment One Section Style 
+  investment Style 
 *******************************************/
 .investment-one-sec {
     background: #2e343a;
@@ -2332,7 +2167,7 @@ select:focus {
 
 
 /*******************************************
-  Blog One Section Style 
+  Blog Style 
 *******************************************/
 .blog-one-sec {
     position: relative;
@@ -2604,15 +2439,8 @@ select:focus {
 }
 
 
-
-
-
-
-
-
-
 /*******************************************
-  Footer One Section Style 
+  Footer Style 
 *******************************************/
 .footer-one-sec {
     position: relative;
@@ -2917,7 +2745,7 @@ select:focus {
 }
 
 /*******************************************
-  About Two Section Style 
+  About Style 
 *******************************************/
 .about-two-sec {
     position: relative;
@@ -3074,7 +2902,7 @@ select:focus {
 }
 
 /*******************************************
-  Practice Two Section Style 
+  Practice Style 
 *******************************************/
 .practice-two-sec {
     position: relative;
@@ -3164,7 +2992,7 @@ select:focus {
 }
 
 /*******************************************
-  Why Choose Two Section Style 
+  Why Choose Style 
 *******************************************/
 .why-choose-two-sec {
     position: relative;
@@ -3361,7 +3189,7 @@ select:focus {
 }
 
 /*******************************************
-  investment Two Section Style 
+  investment Style 
 *******************************************/
 .investment-two-sec {
     position: relative;
@@ -3518,7 +3346,7 @@ select:focus {
 }
 
 /*******************************************
-  Testimonial Two Section Style 
+  Testimonial Style 
 *******************************************/
 .testimonial-two-sec {
     position: relative;
@@ -3656,7 +3484,7 @@ select:focus {
 }
 
 /*******************************************
-  Team Two Section Style 
+  Team Style 
 *******************************************/
 .team-two-sec {
     position: relative;
@@ -3779,7 +3607,7 @@ select:focus {
 }
 
 /*******************************************
-  Contact One Section Style 
+  Contact Style 
 *******************************************/
 .contact-one-sec {
     position: relative;
@@ -3972,17 +3800,8 @@ select:focus {
     font-style: normal;
 }
 
-
-
-
-
-
-
-
-
-
 /*******************************************
-  Blog Two Section Style 
+  Blog Style 
 *******************************************/
 .blog-two-sec {
     position: relative;
@@ -4766,7 +4585,7 @@ select:focus {
 }
 
 /*******************************************
-  investment Page Type1 Style 
+  investment Page Style 
 *******************************************/
 .investment-page-type1 {
     position: relative;
@@ -5268,7 +5087,7 @@ select:focus {
 }
 
 /*******************************************
-  Blog Page Type1 Style 
+  Blog Page Style 
 *******************************************/
 .blog-page-type1 {
     position: relative;
@@ -5290,7 +5109,7 @@ select:focus {
 }
 
 /*******************************************
-  Blog Page Type2 Section Style 
+  Blog Page Section Style 
 *******************************************/
 .blog-page-type2-contant {
     position: relative;
@@ -6043,37 +5862,6 @@ select:focus {
     margin-bottom: 48px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*******************************************
  Error 404 Section Style 
 *******************************************/
@@ -6151,9 +5939,6 @@ select:focus {
     width: 100%;
     height: 700px;
 }
-
-
-
 
 /*******************************************
   Contact Section Style 
@@ -6429,13 +6214,8 @@ select:focus {
     background: #ffffff;
 }
 
-
-
-
-
-
 /*******************************************
-  Header Section Type2 Style 
+  Header Section Style 
 *******************************************/
 .header-sec.type2 {
     position: absolute;
@@ -6453,12 +6233,6 @@ select:focus {
 .header-sec.type2 .stricked-menu {
     background-color: rgba(0, 0, 0, 0.90);
 }
-
-
-
-
-
-
 
 /*** 
 =====================================================
@@ -6520,7 +6294,7 @@ select:focus {
 
 /*** 
 =============================================
-    Float Bob Y Animation Css
+  Y Animation Css
 =============================================
 ***/
 @-webkit-keyframes float-bob-y {
