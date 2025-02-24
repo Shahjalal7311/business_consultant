@@ -495,7 +495,7 @@ if ($('.testimonial-type1-carousel').length && $('.client-type1-thumbs-carousel'
                 items: 1,
                 margin: 0,
                 nav: false,
-                navText: [ '<span class="flaticon-left-arrow"></span>', '<span class="flaticon-right-arrow"></span>' ],
+                navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
                 dots: false,
                 autoplay: true,
                 autoplayTimeout: 5000
@@ -514,7 +514,7 @@ if ($('.testimonial-type1-carousel').length && $('.client-type1-thumbs-carousel'
                 margin: 0,
                 items: 1,
                 nav: false,
-                navText: [ '<span class="icon flaticon-left-arrow-2"></span>', '<span class="icon flaticon-right-arrow-1"></span>' ],
+                navText: [ '<span class="fa fa-angle-left"></span>', '<span class="icon fa fa-angle-right"></span>' ],
                 dots: true,
                 center: false,
                 autoplay: true,
